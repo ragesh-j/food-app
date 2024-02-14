@@ -1,0 +1,73 @@
+#my-booking-main-div{
+    display: flex;
+    border:1px solid #CCCCCC;
+    width: 95%;
+    margin: 2rem 0rem 0rem 4rem;
+}
+#my-booking-main-div > #img-div{
+    width: 15rem;
+    height:10rem;
+    padding :0.2rem;
+} 
+#my-booking-main-div > #img-div >img{
+    max-width: 100%;
+    height:100%
+}
+#my-booking-main-div #car-details-div{
+    padding: 0.2rem;
+    width: 70%;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+}
+#my-booking-main-div #car-details-div h2{
+    text-align: center;
+}
+#my-booking-main-div #car-details-div #car-number{
+    color: #818080;
+    font-weight: 700;
+}
+#my-booking-main-div #car-details-div #car-spec{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin-left: 0.5rem;
+    color: #818080;
+}
+#my-booking-main-div #car-details-div #car-spec div{
+    margin-top: 0.3rem;
+}
+#my-booking-main-div #car-details-div #car-spec span{
+    color: black;
+    font-weight: bold;
+}
+#my-booking-main-div #car-details-div #car-spec #car-type{
+    margin-left: 2rem;
+}
+#my-booking-main-div #car-details-div #car-spec #car-mileage{
+    margin-left: 0.4rem;
+}
+#my-booking-main-div #car-details-div #car-spec #car-seat{
+    margin-left: 2rem;
+}
+#my-booking-main-div #car-details-div #car-spec #car-rsperkm{
+    margin-left: 0.7rem;
+    color:#32C348 ;
+}
+
+#my-booking-main-div #button-div button{
+    padding: 0.8rem 2rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    width: 8rem;
+    border-radius: 5rem;
+    border: 1px solid #007FED;
+}
+#my-booking-main-div #button-div #edit-button{
+    background-color: #007FED;
+    color: #FFFF;
+}
+#my-booking-main-div #button-div #cancel-button{
+    color: #007FED;
+}
+
+
+

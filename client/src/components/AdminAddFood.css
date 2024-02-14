@@ -1,0 +1,148 @@
+.header {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: large;
+}
+
+.form-container {
+    display: flex;
+    font-weight: normal;
+    margin-top: 40px;
+    align-items: space-between;
+}
+
+label {
+    letter-spacing: 0.24px;
+    color: #2D2D2E;
+    opacity: 1;
+    font-size: normal;
+}
+
+.fistPart {
+    flex: 1;
+    border: 1px solid #FFFFFF;
+    margin-left: 80px;
+    width: 50%;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.secondPart {
+    flex: 2;
+    border: 1px solid #FFFFFF;
+    margin-right: 100px;
+    width: 50%;
+    margin-left: 150px;
+    
+}
+
+.name {
+    margin-left: 80px;
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.leftHeadings {
+    margin-left: 80px;
+}
+
+.optionsSelector {
+    margin-left: 80px;
+    padding: 5px;
+    margin-top:5px ;
+    width: 150px;
+}
+
+.rightHeaders {
+    float: right;
+    margin-top:5px ;
+    width: 215px;
+    margin-left: 5px;
+    padding-bottom: 100px;
+    
+}
+
+.leftHeaders {
+    width: 215px;
+    position: absolute;
+}
+.discription{
+    margin-top: 300px;
+    position: relative;
+}
+.cancelBtn{
+    float: left;
+    margin-left: 30rem;
+    height: 2.5rem;
+    width: 10rem;
+    align-self: last baseline;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid #007FED;
+    outline: none;
+    cursor: var(--cursor);
+    position: relative;
+    margin-top: 35px;
+    opacity: 100%;
+    color: #4E94F4;
+}
+.addBtn{
+    float: right;
+    margin-right: 150px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    height: 2.5rem;
+    width: 10rem;
+    align-self: last baseline;
+    background-color: #4E94F4;
+    color: #FFFFFf;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    cursor: var(--cursor);
+    margin-top: 35px;
+}
+
+.description {
+    margin-top:220px;
+    margin-left: 80px;
+}
+.descriptionBlock {
+    margin-bottom: 1px;
+    position: absolute;
+}
+.img-addBtn{
+    float: right;
+    margin-top: 0px;
+    margin-right: 150px;
+    size: 21px;
+    width: 50px;
+}
+#image{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.carDetails {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.details {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.images {
+    margin-left: 25px;
+}
+.buttons{
+    display: inline-block;
+    margin-left: 20%;
+}
